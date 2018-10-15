@@ -16,11 +16,11 @@ while 1:
         pyautogui.hotkey('ctrl', 'pgup')           # perform "ctrl+pgup" operation which moves to the previous tab
 
     if 'down' in incoming_data:                    # if incoming data is 'down'
-        #pyautogui.press('down')                   # performs "down arrow" operation which scrolls down the page
+                                                   # performs "down arrow" operation which scrolls down the page
         pyautogui.scroll(-100) 
          
     if 'up' in incoming_data:                      # if incoming data is 'up'
-        #pyautogui.press('up')                      # performs "up arrow" operation which scrolls up the page
+                                                   # performs "up arrow" operation which scrolls up the page
         pyautogui.scroll(100)
         
     if 'change' in incoming_data:                  # if incoming data is 'change'
